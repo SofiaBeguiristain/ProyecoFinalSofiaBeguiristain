@@ -5,28 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Licorería Centro</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
-<body>
+<body> 
     <header>
         <h1>Licorería Centro</h1>
     </header>
 
     <nav>
         <a href="index.html">Inicio</a>
-        <a href="./pages/productos.html">Productos</a>
-        <a href="#contacto">Contacto</a>
-        <a href="#about">Sobre Nosotros</a>
+        <a href="/pages/contacto.html">Contacto</a>
+        <a href="/pages/nosotros.html">Sobre Nosotros</a>
     </nav>
+
+    <div class="cart"></div>
+
 
     <div class="container">
         <section id="productos">
             <h2>Nuestros Productos</h2>
             <div class="products">
-                <!-- Los productos se cargarán aquí dinámicamente -->
             </div>
-            <a class="button" href="./pages/productos.html">Ver todos los productos</a>
+            
         </section>
     </div>
+
+    <div class="cart"></div>
+    
 
     <button id="alertButton">Haz clic aquí</button>
 
@@ -35,14 +40,12 @@
         <div id="promoContainer"></div>
     </section>
 
-    <button id="filterVinos" class="promo-button">Vinos</button>
-    <button id="filterCervezas" class="promo-button">Cervezas</button>
-    <button id="filterLicores" class="promo-button">Licores</button>
+    
 
     <footer>
         <p>&copy; 2024 Licorería Centro. Todos los derechos reservados.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="productos.js"></script>
 </body>
 </html>

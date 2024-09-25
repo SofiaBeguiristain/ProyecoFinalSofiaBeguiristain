@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Licorería El Buen Gusto</title>
+    <link rel="stylesheet" href="/style.css"> 
+</head>
+<body>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="/pages/contacto.html">Contacto</a>
+        <a href="./nosotros.html">Sobre Nosotros</a>
+    </nav>
+
+    <div class="container">
+        <h1>Contacto</h1>
+        <p>Si tienes alguna duda o deseas ponerte en contacto con nosotros, puedes hacerlo a través del siguiente formulario:</p>
+
+        <form id="contact-form">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit" class="submit-button">Enviar</button>
+        </form>
+
+        <div class="contact-details">
+            <h3>Nuestra Ubicación</h3>
+            <p>Dirección: Av 18 de julio 1452, Montevideo,Uruguay</p>
+            <p>Teléfono: +123 456 789</p>
+            <p>Correo Electrónico: contacto@elcentro.com</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Licorería El Centro &copy; 2024</p>
+    </footer>
+</body>
+</html>

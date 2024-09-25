@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "nombre": "Vinos",
+        "descripcion": "Variedades de vinos seleccionados.",
+        "precio": 600,
+        "img": "img/vino.jpg",
+        "promocion": "3x2"
+    },
+    {
+        "id": 2,
+        "nombre": "Cervezas",
+        "descripcion": "Amplia gama de cervezas locales e internacionales.",
+        "precio": 300,
+        "img": "img/cerveza.jpg",
+        "promocion": "3x2"
+    },
+    {
+        "id": 3,
+        "nombre": "Licores",
+        "descripcion": "Los mejores licores para cualquier ocasión.",
+        "precio": 700,
+        "img": "img/licor.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Gin",
+        "descripcion": "Variedades de gin seleccionados.",
+        "precio": 500,
+        "img": "img/gin.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Tequila",
+        "descripcion": "Los mejores tequilas para cualquier ocasión.",
+        "precio": 700,
+        "img": "img/tequila.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Champagne",
+        "descripcion": "Los mejores champagne para cualquier ocasión.",
+        "precio": 700,
+        "img": "img/champagne.jpg",
+        "promocion": "3x2"
+    }
+]
