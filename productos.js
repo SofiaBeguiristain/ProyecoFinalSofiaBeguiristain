@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('../productos.json')
+    fetch('productos.json')
         .then(response => response.json())
         .then(productos => {
-            localStorage.setItem('productos', JSON.stringify(productos)); // Guardar en localStorage
-            mostrarProductos(productos); // Mostrar productos en la página
+            localStorage.setItem('productos', JSON.stringify(productos)); 
+            mostrarProductos(productos); 
         })
         .catch(error => console.error('Error al cargar los productos:', error));
 
